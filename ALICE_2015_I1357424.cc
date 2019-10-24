@@ -42,7 +42,7 @@ namespace Rivet {
       _histPtProtonsR   = bookHisto1D("TMP/pT_p",   refData(3, 1, 1)); // p histo with more restricted binning
 
 
-      const ChargedFinalState cfs(Cuts::absrap < 0.5);
+      const FinalState cfs(Cuts::absrap < 0.5); //ChargedFinalState ???
       addProjection(cfs, "CFS");
 
 
