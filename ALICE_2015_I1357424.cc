@@ -60,8 +60,8 @@ namespace Rivet {
     /// Normalise histograms etc., after the run
     void finalize() {
 
-      normalize(_h_YYYY); // normalize to unity
-      scale(_h_ZZZZ, crossSection()/picobarn/sumOfWeights()); // norm to cross section
+      // normalize(_h_YYYY); // normalize to unity
+      // scale(_h_ZZZZ, crossSection()/picobarn/sumOfWeights()); // norm to cross section
 
     }
 
