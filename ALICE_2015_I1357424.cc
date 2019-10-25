@@ -21,7 +21,11 @@ namespace Rivet {
     void init() {
 
       // Initialise and register projections
-      declare(FinalState(Cuts::abseta < 5 && Cuts::pT > 100*MeV), "FS");
+      // declare(FinalState(Cuts::abseta < 5 && Cuts::pT > 100*MeV), "FS");
+      const ChargedFinalState cfs(Cuts::absrap<0.5);
+      addProjection(cfs, "CFS");
+
+
 
       // Book histograms
       // _h_XXXX = bookHisto1D(1, 1, 1);
@@ -42,9 +46,9 @@ namespace Rivet {
       _histPtProtonsR   = bookHisto1D("TMP/pT_p",   refData(3, 1, 1)); // p histo with more restricted binning
 
 
-      const FinalState cfs(Cuts::absrap < 0.5); //ChargedFinalState ???
-      addProjection(cfs, "CFS");
-
+      // const FinalState cfs(Cuts::absrap < 0.5); //ChargedFinalState ???
+      // addProjection(cfs, "CFS");
+      //
 
     }
 
