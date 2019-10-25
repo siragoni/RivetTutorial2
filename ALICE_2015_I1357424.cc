@@ -22,7 +22,8 @@ namespace Rivet {
 
       // Initialise and register projections
       // declare(FinalState(Cuts::abseta < 5 && Cuts::pT > 100*MeV), "FS");
-      const ChargedFinalState cfs(Cuts::absrap<0.5);
+      // const ChargedFinalState cfs(Cuts::absrap<0.5);
+      const FinalState cfs(Cuts::absrap<0.5);
       addProjection(cfs, "CFS");
 
 
