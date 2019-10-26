@@ -1,9 +1,9 @@
 # BEGIN PLOT
 Legend=1
 LogY=1
-Title=[Insert title for histogram d01-x01-y01 here]
-XLabel=[Insert $x$-axis label for histogram d01-x01-y01 here]
-YLabel=[Insert $y$-axis label for histogram d01-x01-y01 here]
+Title=$\pi^{+} +\pi^{-}$ yield in INEL pp collisions at $\sqrt{s} =  7$~TeV in $|y| < 0.5$.
+XLabel=$p_{\rm T}$ (GeV/$c$)
+YLabel=$\frac{1}{N_{\rm inel}} \frac{{\rm d}^2N}{{\rm d}p_{\rm T}{\rm d}y}$ ($c$/GeV)
 DrawOnly=/ALICE_2015_I1357424/d01-x01-y01 //afs/cern.ch/user/s/siragoni/RivetTutorial/ALICE_Tutorial_v2/Rivet.yoda/ALICE_2015_I1357424/d01-x01-y01
 LegendOnly=/ALICE_2015_I1357424/d01-x01-y01 //afs/cern.ch/user/s/siragoni/RivetTutorial/ALICE_Tutorial_v2/Rivet.yoda/ALICE_2015_I1357424/d01-x01-y01
 RatioPlot=1
@@ -13,6 +13,7 @@ RatioPlotReference=/ALICE_2015_I1357424/d01-x01-y01
 # BEGIN HISTO1D /ALICE_2015_I1357424/d01-x01-y01
 ConnectBins=0
 ErrorBars=1
+ErrorBreakdown={0: {stat: {dn: -0.0062, up: 0.0062}, sys: {dn: -0.5399, up: 0.5399}}, 1: {stat: {dn: -0.0049, up: 0.0049}, sys: {dn: -0.4077, up: 0.4077}}, 2: {stat: {dn: -0.0047, up: 0.0047}, sys: {dn: -0.4126, up: 0.4126}}, 3: {stat: {dn: -0.0045, up: 0.0045}, sys: {dn: -0.4118, up: 0.4118}}, 4: {stat: {dn: -0.0043, up: 0.0043}, sys: {dn: -0.4074, up: 0.4074}}, 5: {stat: {dn: -0.0025, up: 0.0025}, sys: {dn: -0.3822, up: 0.3822}}, 6: {stat: {dn: -0.0025, up: 0.0025}, sys: {dn: -0.2292, up: 0.2292}}, 7: {stat: {dn: -0.0022, up: 0.0022}, sys: {dn: -0.1953, up: 0.1953}}, 8: {stat: {dn: -0.002, up: 0.002}, sys: {dn: -0.1669, up: 0.1669}}, 9: {stat: {dn: -0.0018, up: 0.0018}, sys: {dn: -0.1424, up: 0.1424}}, 10: {stat: {dn: -0.0017, up: 0.0017}, sys: {dn: -0.1209, up: 0.1209}}, 11: {stat: {dn: -0.0016, up: 0.0016}, sys: {dn: -0.1033, up: 0.1033}}, 12: {stat: {dn: -0.0015, up: 0.0015}, sys: {dn: -0.0888, up: 0.0888}}, 13: {stat: {dn: -0.0031, up: 0.0031}, sys: {dn: -0.1296, up: 0.1296}}, 14: {stat: {dn: -0.003, up: 0.003}, sys: {dn: -0.1109, up: 0.1109}}, 15: {stat: {dn: -0.0028, up: 0.0028}, sys: {dn: -0.0956, up: 0.0956}}, 16: {stat: {dn: -0.0024, up: 0.0024}, sys: {dn: -0.0828, up: 0.0828}}, 17: {stat: {dn: -0.0025, up: 0.0025}, sys: {dn: -0.0715, up: 0.0715}}, 18: {stat: {dn: -0.0023, up: 0.0023}, sys: {dn: -0.0622, up: 0.0622}}, 19: {stat: {dn: -0.0022, up: 0.0022}, sys: {dn: -0.0543, up: 0.0543}}, 20: {stat: {dn: -0.0021, up: 0.0021}, sys: {dn: -0.0474, up: 0.0474}}, 21: {stat: {dn: -0.0013, up: 0.0013}, sys: {dn: -0.0389, up: 0.0389}}, 22: {stat: {dn: -0.0011, up: 0.0011}, sys: {dn: -0.0302, up: 0.0302}}, 23: {stat: {dn: -0.001, up: 0.001}, sys: {dn: -0.0238, up: 0.0238}}, 24: {stat: {dn: -0.00091, up: 0.00091}, sys: {dn: -0.0189, up: 0.0189}}, 25: {stat: {dn: -0.00081, up: 0.00081}, sys: {dn: -0.01519, up: 0.01519}}, 26: {stat: {dn: -0.00066, up: 0.00066}, sys: {dn: -0.0121, up: 0.0121}}, 27: {stat: {dn: -0.00058, up: 0.00058}, sys: {dn: -0.00994, up: 0.00994}}, 28: {stat: {dn: -0.00051, up: 0.00051}, sys: {dn: -0.00824, up: 0.00824}}, 29: {stat: {dn: -0.00045, up: 0.00045}, sys: {dn: -0.00692, up: 0.00692}}, 30: {stat: {dn: -0.0004, up: 0.0004}, sys: {dn: -0.00583, up: 0.00583}}, 31: {stat: {dn: -0.00035, up: 0.00035}, sys: {dn: -0.00495, up: 0.00495}}, 32: {stat: {dn: -0.00032, up: 0.00032}, sys: {dn: -0.00411, up: 0.00411}}, 33: {stat: {dn: -0.00028, up: 0.00028}, sys: {dn: -0.00354, up: 0.00354}}, 34: {stat: {dn: -0.00026, up: 0.00026}, sys: {dn: -0.00311, up: 0.00311}}, 35: {stat: {dn: -0.00023, up: 0.00023}, sys: {dn: -0.00279, up: 0.00279}}, 36: {stat: {dn: -0.00034, up: 0.00034}, sys: {dn: -0.00368, up: 0.00368}}, 37: {stat: {dn: -0.00031, up: 0.00031}, sys: {dn: -0.00308, up: 0.00308}}, 38: {stat: {dn: -0.00029, up: 0.00029}, sys: {dn: -0.0026, up: 0.0026}}, 39: {stat: {dn: -0.00027, up: 0.00027}, sys: {dn: -0.00232, up: 0.00232}}, 40: {stat: {dn: -0.00025, up: 0.00025}, sys: {dn: -0.00207, up: 0.00207}}}
 IsRef=1
 Path=/ALICE_2015_I1357424/d01-x01-y01
 PolyMarker=*
